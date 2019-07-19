@@ -7,9 +7,9 @@ public class Main {
         cat.voice();
         dog.voice();
 
-        MyMath.subtract();
-        MyMath.sum();
-        MyMath.multyply();
-        MyMath.divide();
+        System.out.println(MyMath.subtract(MyMath.Pi,MyMath.G));
+        System.out.println(MyMath.sum(MyMath.Pi,MyMath.G));
+        System.out.println(MyMath.multyply(MyMath.G));
+        System.out.println(MyMath.divide(MyMath.G));
     }
 }
